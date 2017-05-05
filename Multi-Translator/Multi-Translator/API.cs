@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Multi_Translator
 {
-    class API
+    public class API
     {
+        string inputText { get; set; }
+        string outputText { get; set; }
+        string language { get; set; }
     }
 }
